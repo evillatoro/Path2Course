@@ -6,10 +6,81 @@
     <title>Path2Course</title>
     <script src="https://unpkg.com/vue@3.0.2"></script>
     <style>
+        html {
+            height: 100%;
+        }
+
         body {
             background: black;
-            max-width: 960px;
-            margin: 20px auto;
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+
+        input {
+            border-radius: 10px;
+        }
+
+        /* shows components as a column*/
+        #app {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* flex-direction default is row */
+        #main {
+            overflow: hidden;
+            flex: 1;
+            display: flex;
+            align-items: stretch;
+        }
+
+        #header {
+            background-color: #A28D5B;
+            position: sticky;
+            top: 0;
+            text-align: center;
+        }
+
+        .container {
+            /* each container takes up equal amount of space with flex */
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            width: 320px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            overflow-y: auto;
+            padding: 4px;
+            background-color: black;
+        }
+
+        .content-display-horizontal {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            overflow: auto;
+            padding: 4px;
+            background-color: black;
+        }
+
+        #footer {
+            background-color: #A28D5B;
+            position: sticky;
+            bottom: 0;
+            text-align: center;
         }
 
         p,
@@ -32,20 +103,8 @@
             display: inline-table;
         }
 
-        .container {
-            text-align: center;
-            background: #A28D5B;
-            border-radius: 0px;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-        }
-
         .anchor {
             display: block;
-            height: 150px;
-            margin-top: -125px;
             visibility: hidden;
         }
 
@@ -61,39 +120,70 @@
 
 <body>
     <div id="app">
-        <div class="container">
+        <div id='header'>
+
             <h1 style="color:white">Path2Course :)
-                <!-- <p>Courses: {{ filteredCourses.length }}</p>  -->
             </h1>
             <input type="text" v-model="search" placeholder="search courses">
             <br>
             <br>
         </div>
-        <div style="padding-top: 100px;">
-            <ul v-if="courses.length">
-                <div v-for="course in filteredCourses">
-                    <li :id="course.ShortName">
+        <div id='main'>
+            <!-- the container needs to have a size to trigger overflow -->
+            <div class="container">
+                <ul class="content" v-if="courses.length">
+                    <div v-for="course in filteredCourses">
                         <span class="anchor" :id="course.ShortName + '-anchor'"></span>
-                        <h3>{{ course.Name }}</h3>
-                        <h4 v-if="course.Description">
-                            <p style="color:#A28D5B">Description: </p>{{ course.Description }}
-                        </h4>
-                        <ul>
-                            <p v-if="course.Prerequisites != null">Prerequisites: </p>
-                            <li v-for="prerequisite in course.Prerequisites" class="prerequisite" @click.stop="">
-                                <a style="color: #A28D5B" :href="'#' + prerequisite + '-anchor'">
-                                    <p>{{ prerequisite }}</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                        <li :id="course.ShortName">
+                            <h3>{{ course.Name }}</h3>
+                            <h4 v-if="course.Description">
+                                <p style="color:#A28D5B">Description: </p>{{ course.Description }}
+                            </h4>
+                            <ul>
+                                <p v-if="course.Prerequisites != null">Prerequisites: </p>
+                                <li v-for="prerequisite in course.Prerequisites" class="prerequisite" @click.stop="">
+                                    <a style="color: #A28D5B" :href="'#' + prerequisite + '-anchor'">
+                                        <p>{{ prerequisite }}</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+                </ul>
+                <div v-else>
+                    <br>
+                    <p style="color:white; text-align: center;">loading courses...</p>
                 </div>
-            </ul>
-            <div v-else>
-                <br>
-                <p style="color:white; text-align: center;">loading courses...</p>
             </div>
+            <!-- <div class="container">
+                <ul class="content-display-horizontal" v-if="courses.length">
+                    <div v-for="course in filteredCourses">
+                        <span class="anchor" :id="course.ShortName + '-anchor'"></span>
+                        <li :id="course.ShortName">
+                            <h3>{{ course.Name }}</h3>
+                            <h4 v-if="course.Description">
+                                <p style="color:#A28D5B">Description: </p>{{ course.Description }}
+                            </h4>
+                            <ul>
+                                <p v-if="course.Prerequisites != null">Prerequisites: </p>
+                                <li v-for="prerequisite in course.Prerequisites" class="prerequisite" @click.stop="">
+                                    <a style="color: #A28D5B" :href="'#' + prerequisite + '-anchor'">
+                                        <p>{{ prerequisite }}</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+                </ul>
+                <div v-else>
+                    <br>
+                    <p style="color:white; text-align: center;">loading courses...</p>
+                </div>
+            </div> -->
+
+            <!-- can add more containers -->
         </div>
+        <div id='footer'> Made with ❤️ by Edwin Villatoro</div>
     </div>
     <script src="app.js"></script>
 </body>
