@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path2Course</title>
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+    <style>
+        body {
+            background: black;
+            max-width: 960px;
+            margin: 20px auto;
+        }
+
+        p,
+        h3,
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+            background: white;
+            margin: 20px auto;
+            padding: 10px 20px;
+            border-radius: 10px;
+            justify-content: space-between;
+        }
+
+        .prerequisite {
+            display: inline-table;
+        }
+
+        .container {
+            text-align: center;
+            background: #A28D5B;
+            border-radius: 0px;
+            position: sticky;
+            top: 0;
+            margin-top: 0px;
+        }
+
+        .anchor {
+            display: block;
+            height: 150px;
+            margin-top: -125px;
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <h1 style="color:white">Path2Course :) Courses: {{ filteredCourses.length }}</h1>
+            <input type="text" v-model="search" placeholder="search courses">
+            <br>
+            <br>
+        </div>
+        <div>
+            <ul v-if="courses.length">
+                <div v-for="course in filteredCourses">
+                    <li :id="course.ShortName">
+                        <span class="anchor" :id="course.ShortName + '-anchor'"></span>
+                        <h3>{{ course.Name }}</h3>
+                        <h4 v-if="course.Description">
+                            <p style="color:#A28D5B">Description: </p>{{ course.Description }}
+                        </h4>
+                        <ul>
+                            <p v-if="course.Prerequisites != null">Prerequisites: </p>
+                            <li v-for="prerequisite in course.Prerequisites" class="prerequisite" @click.stop="">
+                                <a style="color: #A28D5B" :href="'#' + prerequisite + '-anchor'">
+                                    <p>{{ prerequisite }}</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+            <div v-else>
+                <br>
+                <p style="color:white; text-align: center;">loading courses...</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
