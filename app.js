@@ -7,7 +7,7 @@ const app = Vue.createApp({
         }
     },
     mounted() {
-        fetch('courses.json')
+        fetch('./courses.json')
             .then(res => res.json())
             .then(data => {
                 this.courses = Object.values(data.Courses)
