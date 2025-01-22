@@ -458,5 +458,185 @@
         "Class2": "ET DEPT",
         "Title2": "Approp. Dept. Must Evaluate",
         "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "HIST 2052",
+        "Title": "Multiculturalism Modern Amer",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "SS 2XXX",
+        "Title2": "Social Science Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2100",
+        "Title": "Introduction to Africa",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "SS 2XXX",
+        "Title2": "Social Science Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2111",
+        "Title": "American History to 1865",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "HIST 2111",
+        "Title2": "United States to 1877",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2111E",
+        "Title": "American History to 1865",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "HIST 2111",
+        "Title2": "United States to 1877",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2111H",
+        "Title": "American History to 1865 Hon",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "HIST 2111",
+        "Title2": "United States to 1877",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2112",
+        "Title": "American History Since 1865",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "HIST 2112",
+        "Title2": "United States since 1877",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2112E",
+        "Title": "American History Since 1865",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "HIST 2112",
+        "Title2": "United States since 1877",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2112H",
+        "Title": "Hist of U.S. 1865 to Pres Hon",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "HIST 2112",
+        "Title2": "United States since 1877",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2222",
+        "Title": "Latin Amer Civilztn since 1800",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "SS 2XXX",
+        "Title2": "Social Science Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2302",
+        "Title": "Hist of Westrn Society sn 1500",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "SS 2XXX",
+        "Title2": "Social Science Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2311H",
+        "Title": "Western Society to 1500 Honors",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "SS 2XXX",
+        "Title2": "Social Science Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2312H",
+        "Title": "Western Society since 1500 Hon",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "HIST 2502",
+        "Title": "Africa Since 1800",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "HTS 2XXX",
+        "Title2": "Hist,Tech & Soc Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2701",
+        "Title": "World Civilizations I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "HTS 2XXX",
+        "Title2": "Hist,Tech & Soc Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2701H",
+        "Title": "World Civilizations I Honors",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "HTS 2XXX",
+        "Title2": "Hist,Tech & Soc Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2702",
+        "Title": "World Civilizations II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "HTS 2XXX",
+        "Title2": "Hist,Tech & Soc Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 2702H",
+        "Title": "World Civilizations II Honors",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "HTS 2XXX",
+        "Title2": "Hist,Tech & Soc Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 3071",
+        "Title": "The US 1877-1917",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "HTS 2011",
+        "Title2": "The Gilded Age",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 3561",
+        "Title": "The Medieval Middle East",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "HTS 2040",
+        "Title2": "Hist Islamic Societies",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "HIST 3562",
+        "Title": "The Middle East-1453 to 1918",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "HTS 2041",
+        "Title2": "Hist-Modern Middle East",
+        "Credit Hours2": "3.0"
     }
 ]

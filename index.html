@@ -177,8 +177,8 @@
             <!-- the container needs to have a size to trigger overflow -->
             <div class="container">
                 <div class="divUGA">University of Georgia</div>
-                <ul class="content" v-if="courses.length">
-                    <div v-for="course in transferData">
+                <ul class="content" v-if="transferData.length">
+                    <div v-if="filteredCoursesUGA.length" v-for="course in filteredCoursesUGA">
                         <span class="anchor" :id="course.ShortName + '-anchor'"></span>
                         <li :id="course.ShortName">
                             <h3>{{ course.Class }}</h3>
@@ -200,6 +200,10 @@
                                 </a>
                             </h4>
                         </li>
+                    </div>
+                    <div v-else>
+                        <br>
+                        <p style="color:white; text-align: center;">no matches...</p>
                     </div>
                 </ul>
                 <div v-else>
