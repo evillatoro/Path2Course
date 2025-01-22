@@ -1039,5 +1039,298 @@
         "Class2": "ET DEPT",
         "Title2": "Approp. Dept. Must Evaluate",
         "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1110",
+        "Title": "Elementary Chemistry",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1110L",
+        "Title": "Elem Chem Lab",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1210",
+        "Title": "Basics of Chemistry",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1211",
+        "Title": "General Chemistry I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET LAB",
+        "Title2": "Credit Awarded w/Lab Section",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1211D",
+        "Title": "General Chemistry I Discussion",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1211L",
+        "Title": "General Chemistry I Lab",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CHEM 1211K",
+        "Title2": "Chemical Principles I",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "CHEM 1212",
+        "Title": "General Chemistry II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET LAB",
+        "Title2": "Credit Awarded w/Lab Section",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1212D",
+        "Title": "General Chem II Discussion",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1212L",
+        "Title": "General Chem Lab II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CHEM 1212K",
+        "Title2": "Chemical Principles II",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "CHEM 1311H",
+        "Title": "Adv Gen Chem I (Honors)",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET LAB",
+        "Title2": "Credit Awarded w/Lab Section",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1311L",
+        "Title": "Adv Gen Chem Lab I (Honors)",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CHEM 1211K",
+        "Title2": "Chemical Principles I",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "CHEM 1312H",
+        "Title": "Adv Freshman Chem II Honrs",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "ET LAB",
+        "Title2": "Credit Awarded w/CHEM 1312L",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1312L",
+        "Title": "Adv Prin Chem Lab II Honrs",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CHEM 1212K",
+        "Title2": "Chemical Principles II",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "CHEM 1411",
+        "Title": "Advanced Modern Chemistry I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET LAB",
+        "Title2": "Credit Awarded w/CHEM 1411L",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1411L",
+        "Title": "Adv Modern Chemistry Lab I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CHEM 1211K",
+        "Title2": "Chemical Principles I",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "CHEM 1412",
+        "Title": "Advanced Modern Chemistry II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET LAB",
+        "Title2": "Credit Awarded w/CHEM 1412L",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 1412L",
+        "Title": "Adv Modern Chemistry II Lab",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CHEM 1212K",
+        "Title2": "Chemical Principles II",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "CHEM 2211",
+        "Title": "Modern Organic Chemistry I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CHEM 2311",
+        "Title2": "Organic Chemistry I",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CHEM 2211L",
+        "Title": "Modern Organic Chemistry Lab I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "ET LAB",
+        "Title2": "Credit Awarded w/CHEM 2212L",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 2212",
+        "Title": "Modern Organic Chemistry II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CHEM 2312",
+        "Title2": "Organic Chemistry II",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CHEM 2212L",
+        "Title": "Modern Organic Chem Lab II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CHEM 2380",
+        "Title2": "2 Hrs Awarded w/CHEM 2211L",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 2300",
+        "Title": "Quantitative Analytical Chemis",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET LAB",
+        "Title2": "Credit Awarded w/Lab Section",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 2300L",
+        "Title": "Quantitative Analytical Chem L",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CHEM 2216",
+        "Title2": "Quant Chem",
+        "Credit Hours2": "2.0"
+    },
+    {
+        "Class": "CHEM 2XXX",
+        "Title": "Chem Elective",
+        "Level": "2.0"
+    },
+    {
+        "Class": "CHEM 2311H",
+        "Title": "Adv Organic Chem I Honrs",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CHEM 2311",
+        "Title2": "Organic Chemistry I",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CHEM 2311L",
+        "Title": "Adv Organic Chemistry Lab I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "ET LAB",
+        "Title2": "Credit Awarded w/CHEM 2312L",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 2312H",
+        "Title": "Adv Organic Chem II Honrs",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CHEM 2312",
+        "Title2": "Organic Chemistry II",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CHEM 2312L",
+        "Title": "Adv Organic Chemistry Lab II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CHEM 2380",
+        "Title2": "2 Hrs Awarded w/CHEM 2311L",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 2411",
+        "Title": "Adv Org Chem I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CHEM 2311",
+        "Title2": "Organic Chemistry I",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CHEM 2411L",
+        "Title": "Adv Organic Chem Lab I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET LAB",
+        "Title2": "Credit Awarded w/CHEM 2412L",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 2412",
+        "Title": "Adv Organic Chemistry II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CHEM 2312",
+        "Title2": "Organic Chemistry II",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CHEM 2412L",
+        "Title": "Adv Organic Chemistry Lab II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CHEM 2380",
+        "Title2": "2 Hrs Awarded w/CHEM 2411L",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CHEM 3710",
+        "Title": "Chemistry Learning Assistant",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
     }
 ]
