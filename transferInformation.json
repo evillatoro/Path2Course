@@ -638,5 +638,406 @@
         "Class2": "HTS 2041",
         "Title2": "Hist-Modern Middle East",
         "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 1060",
+        "Title": "Mathematics Decision Making",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "MATH 1101",
+        "Title": "Intro to Mathematical Modeling",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "MATH 1113",
+        "Title": "Precalculus",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 11X3",
+        "Title2": "Transfer Precalculus",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 1113H",
+        "Title": "Honors Precalculus",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 11X3",
+        "Title2": "Transfer Precalculus",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 2110",
+        "Title": "Calculus for Economics",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 17X2",
+        "Title2": "Transfer Survey-Calc",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 2110E",
+        "Title": "Calculus for Economics",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 17X2",
+        "Title2": "Transfer Survey-Calc",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 2200",
+        "Title": "Analytic Geometry & Calculus",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 1551",
+        "Title2": "Differential Calculus",
+        "Credit Hours2": "2.0"
+    },
+    {
+        "Class": "MATH 1XXX",
+        "Title": "Mathematics Elective",
+        "Level": "2.0"
+    },
+    {
+        "Class": "MATH 2250",
+        "Title": "Calculus I Scientists& Engrs",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 1551",
+        "Title2": "Differential Calculus",
+        "Credit Hours2": "2.0"
+    },
+    {
+        "Class": "MATH 1XXX",
+        "Title": "Mathematics Elective",
+        "Level": "2.0"
+    },
+    {
+        "Class": "MATH 2250E",
+        "Title": "Calc I Scient/Engrs-ONLINE",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 1551",
+        "Title2": "Differential Calculus",
+        "Credit Hours2": "2.0"
+    },
+    {
+        "Class": "MATH 1XXX",
+        "Title": "Mathematics Elective",
+        "Level": "2.0"
+    },
+    {
+        "Class": "MATH 2255",
+        "Title": "Topics in Integral Calculus",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "MATH 2260",
+        "Title": "Calculus II for Sci & Engineer",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 1552",
+        "Title2": "Integral Calculus",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "MATH 2270",
+        "Title": "Calculus III Scientists& Engrs",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 2551",
+        "Title2": "Multivariable Calculus",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "MATH 2270H",
+        "Title": "Calculus III Scientists& Engrs",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 2551",
+        "Title2": "Multivariable Calculus",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "MATH 2310",
+        "Title": "Integral Calculus",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 1X52",
+        "Title2": "Transfer Integral Calculus",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 2310H",
+        "Title": "Integral Calculus",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 1552",
+        "Title2": "Integral Calculus",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "MATH 2400",
+        "Title": "Differential Calculus w/Theory",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "MATH 2400H",
+        "Title": "Differential Calculus w/Theory",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "MATH 2410",
+        "Title": "Integral Calculus w/Theory",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 1552",
+        "Title2": "Integral Calculus",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "MATH 2410H",
+        "Title": "Integral Calculus w/Theory",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 1552",
+        "Title2": "Integral Calculus",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "MATH 2500",
+        "Title": "Multivariable Calculus",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 2X51",
+        "Title2": "Transfer Multivariable Calc",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 2610",
+        "Title": "Discrete Math for Comp Scienc",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CS 2050",
+        "Title2": "Intro Discrete Math CS",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "FREE 2XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "MATH 2700",
+        "Title": "Elementary Differential Equatn",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 2X52",
+        "Title2": "Transfer Differential Equation",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 3000",
+        "Title": "Introduction to Linear Algebra",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 1553",
+        "Title2": "Intro to Linear Algebra",
+        "Credit Hours2": "2.0"
+    },
+    {
+        "Class": "MATH 1XXX",
+        "Title": "Mathematics Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "MATH 3100",
+        "Title": "Sequences and Series",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 1X52",
+        "Title2": "Transfer Integral Calculus",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 3200",
+        "Title": "Intro to Higher Mathematics",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 2106",
+        "Title2": "Foundations Math Proof",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 3220",
+        "Title": "Advanced Problem Solving",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 4XXX",
+        "Title2": "Mathematics Elective",
+        "Credit Hours2": "1.0"
+    },
+    {
+        "Class": "MATH 3300",
+        "Title": "Applied Linear Algebra",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 1553",
+        "Title2": "Intro to Linear Algebra",
+        "Credit Hours2": "2.0"
+    },
+    {
+        "Class": "MATH 1XXX",
+        "Title": "Mathematics Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "MATH 3500",
+        "Title": "Multivariable Mathematics I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 2XXX",
+        "Title2": "Mathematics Elective",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "MATH 1554",
+        "Title": "4 Hrs Awarded w/MATH 3510",
+        "Level": "0.0"
+    },
+    {
+        "Class": "MATH 3500H",
+        "Title": "Multivariable Math I Honors",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 2XXX",
+        "Title2": "Mathematics Elective",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "MATH 1554",
+        "Title": "4 Hrs Awarded w/MATH 3510H",
+        "Level": "0.0"
+    },
+    {
+        "Class": "MATH 3510",
+        "Title": "Multivariable Mathematics II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 2XXX",
+        "Title2": "Mathematics Elective",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "MATH 2551",
+        "Title": "4 Hrs Awarded w/MATH 3500",
+        "Level": "0.0"
+    },
+    {
+        "Class": "MATH 3510H",
+        "Title": "Multivariable Math II Honors",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 2XXX",
+        "Title2": "Mathematics Elective",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "MATH 2561",
+        "Title": "4 Hrs Awarded w/MATH 3500H",
+        "Level": "0.0"
+    },
+    {
+        "Class": "MATH 4000",
+        "Title": "Modern Algebra",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 4XXX",
+        "Title2": "Mathematics Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 4500",
+        "Title": "Numerical Analysis I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 4640",
+        "Title2": "Numerical Analysis I",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 4600",
+        "Title": "Probability",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 3235",
+        "Title2": "Probability Theory",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 4670",
+        "Title": "Combinatorics",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 3XXX",
+        "Title2": "Mathematics Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 4690",
+        "Title": "Graph Theory",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 4022",
+        "Title2": "Intro to Graph Theory",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "MATH 4790",
+        "Title": "Math Option Pricing",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "MATH 4900",
+        "Title": "Topics in Math",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "MATH 4950",
+        "Title": "Research Math",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
     }
 ]
