@@ -15,6 +15,7 @@
             display: block;
             height: 100%;
             width: 100%;
+            overflow: hidden;
         }
 
         input {
@@ -42,6 +43,7 @@
             align-items: stretch;
         }
 
+        /* added top 0 to stick header to top */
         #header {
             background-color: #A28D5B;
             position: sticky;
@@ -49,20 +51,20 @@
             text-align: center;
         }
 
+        /* each container takes up equal amount of space with flex */
         .container {
-            /* each container takes up equal amount of space with flex */
-            flex: 1;
             display: flex;
+            flex: 1;  /* do not need to put a width since flex will give one */
             flex-direction: column;
             align-items: stretch;
-            width: 320px;
+            overflow: auto;
+            /* width: 320; */
         }
 
         .content {
             display: flex;
             flex-direction: column;
             align-items: stretch;
-            overflow-y: auto;
             padding: 4px;
             background-color: black;
         }
@@ -71,7 +73,6 @@
             display: flex;
             flex-direction: row;
             align-items: stretch;
-            overflow: auto;
             padding: 4px;
             background-color: black;
         }
@@ -108,6 +109,7 @@
             visibility: hidden;
         }
 
+        /* added so that in mobile, when keyboard comes up, there is no auto-zoom on the search bar */
         input {
             font-size: initial;
         }
