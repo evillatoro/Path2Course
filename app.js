@@ -18,7 +18,6 @@ const app = Vue.createApp({
         fetch('./transferInformation.json')
             .then(res => res.json())
             .then(data => {
-                console.log(data)
                 this.transferData = data;
             })
             .catch(err => console.log(err.message));
@@ -30,6 +29,17 @@ const app = Vue.createApp({
             if (this.courses != null) {
                 return this.courses.filter((course) => {
                     return course.Name.match(input)
+                })
+            }
+        },
+        filteredCoursesUGA() {
+            input = this.search.toUpperCase()
+
+            if (this.transferData != null) {
+                return this.transferData.filter((course) => {
+                    if (course.Class2) {
+                        return course.Class2.match(input);
+                    }
                 })
             }
         }
