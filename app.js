@@ -3,7 +3,8 @@ const app = Vue.createApp({
     data() {
         return {
             search: '',
-            courses: []
+            courses: [],
+            transferData: []
         }
     },
     mounted() {
@@ -12,7 +13,15 @@ const app = Vue.createApp({
             .then(data => {
                 this.courses = Object.values(data.Courses)
             })
-            .catch(err => console.log(err.message))
+            .catch(err => console.log(err.message));
+
+        fetch('./transferInformation.json')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                this.transferData = data;
+            })
+            .catch(err => console.log(err.message));
     },
     computed: {
         filteredCourses() {

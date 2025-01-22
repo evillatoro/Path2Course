@@ -1,0 +1,462 @@
+[
+    {
+        "Class": "CSCI 1100",
+        "Title": "Intro to Personal Computing",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CSCI 1210",
+        "Title": "Computer Modeling and Science",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CSCI 1300",
+        "Title": "Computational Engr Methods",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CSCI 1301",
+        "Title": "Intro Computing & Programming",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CS 1301",
+        "Title2": "Intro to Computing",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "FREE 1XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 1301E",
+        "Title": "Intro Computing & Programming",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CS 1301",
+        "Title2": "Intro to Computing",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "FREE 1XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 1302",
+        "Title": "Software Development",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 1331",
+        "Title2": "Intro-Object Orient Prog",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "FREE 1XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 1302H",
+        "Title": "Software Development Honors",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 1331",
+        "Title2": "Intro-Object Orient Prog",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "FREE 1XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 1360",
+        "Title": "Foundtns Informatics/Analytics",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 4240",
+        "Title2": "Compilers & Interpreters",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "FREE 1XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 1360E",
+        "Title": "Foundtns Informatics/Analytics",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 4240",
+        "Title2": "Compilers & Interpreters",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "FREE 1XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 1730",
+        "Title": "Systems Programming",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CS 1372",
+        "Title2": "Program Design for Engrs",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "FREE 1XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 1730E",
+        "Title": "Systems Programming",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CS 1372",
+        "Title2": "Program Design for Engrs",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "FREE 1XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 1TTS",
+        "Title": "Test Score Credit",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CSCI 2150",
+        "Title": "Intro Scientific Comp",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 1301",
+        "Title2": "Intro to Computing",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CS 1XXX",
+        "Title": "Computer Sci Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 2610",
+        "Title": "Discrete Math for Comp Scienc",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CS 2050",
+        "Title2": "Intro Discrete Math CS",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "FREE 2XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 2610E",
+        "Title": "Discrete Mathematics for CSCI",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 2050",
+        "Title2": "Intro Discrete Math CS",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CS 1XXX",
+        "Title": "Computer Sci Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 2611",
+        "Title": "Discrete Math for Engineers",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "MATH 26X3",
+        "Title2": "Transfer Discrete Math",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CSCI 2670",
+        "Title": "Intro to Theory of Computing",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CS 4510",
+        "Title2": "Automata and Complexity",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CS 4XXX",
+        "Title": "Computer Sci Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 2720",
+        "Title": "Data Structures",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CS 1332",
+        "Title2": "Data Struct & Algorithms",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CS 1XXX",
+        "Title": "Computer Sci Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 2725",
+        "Title": "Data Structures Data Science",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "CS 1332",
+        "Title2": "Data Struct & Algorithms",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CS 1XXX",
+        "Title": "Computer Sci Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 3030",
+        "Title": "Computing, Ethics, & Society",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 4001",
+        "Title2": "Computing & Society",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CSCI 3030E",
+        "Title": "Computing, Ethics, & Society",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 4001",
+        "Title2": "Computing & Society",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CSCI 3360",
+        "Title": "Data Science I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CX 4240",
+        "Title2": "Computing for Data Analy",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "FREE 4XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 4050",
+        "Title": "Software Engineering",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 2340",
+        "Title2": "Objects and Design",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CS 2XXX",
+        "Title": "Computer Sci Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 4150",
+        "Title": "Numerc Simulations in Sci/Engr",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "FREE 4XXX",
+        "Title2": "Free Elective",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "CSCI 4230",
+        "Title": "Embedded Systems Design I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CSCI 4300",
+        "Title": "Web Programming",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 2XXX",
+        "Title2": "Computer Sci Elective",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "CSCI 4360",
+        "Title": "Data Science II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 4240",
+        "Title2": "Compilers & Interpreters",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CS 4XXX",
+        "Title": "Computer Sci Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 4370",
+        "Title": "Database Management",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 4400",
+        "Title2": "Intr to Database Systems",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CS 4XXX",
+        "Title": "Computer Sci Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 4380",
+        "Title": "Data Mining",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 4XXX",
+        "Title2": "Computer Sci Elective",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "CSCI 4470",
+        "Title": "Algorithms",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 3510",
+        "Title2": "Dsgn&Analysis-Algorithms",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CS 3XXX",
+        "Title": "Computer Sci",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 4560",
+        "Title": "Evolutionary Computation Apps",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CSCI 4670",
+        "Title": "Combinatorics",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "MATH 3XXX",
+        "Title2": "Mathematics Elective",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CSCI 4720",
+        "Title": "Computer Architecture Organiza",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET DEPT",
+        "Title2": "Dept Reviews Each Section",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CSCI 4760",
+        "Title": "Computer Networks",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 3251",
+        "Title2": "Computer Networking I",
+        "Credit Hours2": "3.0"
+    },
+    {
+        "Class": "CS 3XXX",
+        "Title": "Computer Sci",
+        "Level": "1.0"
+    },
+    {
+        "Class": "CSCI 4810",
+        "Title": "Computer Graphics",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 3XXX",
+        "Title2": "Computer Sci",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "CSCI 4830",
+        "Title": "Virtual Reality",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "CS 4XXX",
+        "Title2": "Computer Sci Elective",
+        "Credit Hours2": "4.0"
+    },
+    {
+        "Class": "CSCI 4950",
+        "Title": "Directed Study",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CSCI 4960",
+        "Title": "Faculty Mentored Research",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET NOGT",
+        "Title2": "No Georgia Tech Credit Awarded",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CSCI 6360",
+        "Title": "Data Science II",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "CSCI 6380",
+        "Title": "Data Mining",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "ET DEPT",
+        "Title2": "Approp. Dept. Must Evaluate",
+        "Credit Hours2": "0.0"
+    }
+]
