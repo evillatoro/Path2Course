@@ -1332,5 +1332,92 @@
         "Class2": "ET NOGT",
         "Title2": "No Georgia Tech Credit Awarded",
         "Credit Hours2": "0.0"
+    },
+    {
+        "Class": "FREN 1001",
+        "Title": "Elementary French",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "FREN 1001",
+        "Title2": "Elementary French I",
+        "Credit Hours": "3.0"
+    },
+    {
+        "Class": "FREE 1XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "FREN 1002",
+        "Title": "Elementary French",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "FREN 1002",
+        "Title2": "Elementary French II",
+        "Credit Hours": "3.0"
+    },
+    {
+        "Class": "HUM 1XXX",
+        "Title": "Humanities Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "FREN 1110",
+        "Title": "Accelerated Elementary French",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "FREN 1001",
+        "Title2": "Elementary French I",
+        "Credit Hours": "3.0"
+    },
+    {
+        "Class": "FREE 1XXX",
+        "Title": "Free Elective",
+        "Level": "1.0"
+    },
+    {
+        "Class": "FREN 2001",
+        "Title": "Intermediate French",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "FREN 2021",
+        "Title2": "Inter Conver/Comp I",
+        "Credit Hours": "3.0"
+    },
+    {
+        "Class": "FREN 2002",
+        "Title": "Intermediate French",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "FREN 2022",
+        "Title2": "Inter Conver/Comp II",
+        "Credit Hours": "3.0"
+    },
+    {
+        "Class": "FREN 2030",
+        "Title": "Practical French Conversation",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C-",
+        "Class2": "FREN 2XXX",
+        "Title2": "French Elective",
+        "Credit Hours": "1.0"
+    },
+    {
+        "Class": "FREN 3010",
+        "Title": "Culture and Communication I",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "FREN 3XXX",
+        "Title2": "French Elective",
+        "Credit Hours": "3.0"
+    },
+    {
+        "Class": "FREN 3030",
+        "Title": "Texts and Contexts",
+        "Level": "Undergraduate",
+        "Minimum Grade": "C",
+        "Class2": "FREN 3XXX",
+        "Title2": "French Elective",
+        "Credit Hours": "3.0"
     }
 ]
