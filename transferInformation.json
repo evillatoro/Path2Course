@@ -1340,7 +1340,7 @@
         "Minimum Grade": "C-",
         "Class2": "FREN 1001",
         "Title2": "Elementary French I",
-        " Credit Hours2": "3.0"
+        "Credit Hours": "3.0"
     },
     {
         "Class": "FREE 1XXX",
@@ -1354,7 +1354,7 @@
         "Minimum Grade": "C-",
         "Class2": "FREN 1002",
         "Title2": "Elementary French II",
-        " Credit Hours2": "3.0"
+        "Credit Hours": "3.0"
     },
     {
         "Class": "HUM 1XXX",
@@ -1368,7 +1368,7 @@
         "Minimum Grade": "C-",
         "Class2": "FREN 1001",
         "Title2": "Elementary French I",
-        " Credit Hours2": "3.0"
+        "Credit Hours": "3.0"
     },
     {
         "Class": "FREE 1XXX",
@@ -1382,7 +1382,7 @@
         "Minimum Grade": "C-",
         "Class2": "FREN 2021",
         "Title2": "Inter Conver/Comp I",
-        " Credit Hours2": "3.0"
+        "Credit Hours": "3.0"
     },
     {
         "Class": "FREN 2002",
@@ -1391,7 +1391,7 @@
         "Minimum Grade": "C-",
         "Class2": "FREN 2022",
         "Title2": "Inter Conver/Comp II",
-        " Credit Hours2": "3.0"
+        "Credit Hours": "3.0"
     },
     {
         "Class": "FREN 2030",
@@ -1400,7 +1400,7 @@
         "Minimum Grade": "C-",
         "Class2": "FREN 2XXX",
         "Title2": "French Elective",
-        " Credit Hours2": "1.0"
+        "Credit Hours": "1.0"
     },
     {
         "Class": "FREN 3010",
@@ -1409,7 +1409,7 @@
         "Minimum Grade": "C",
         "Class2": "FREN 3XXX",
         "Title2": "French Elective",
-        " Credit Hours2": "3.0"
+        "Credit Hours": "3.0"
     },
     {
         "Class": "FREN 3030",
@@ -1418,6 +1418,6 @@
         "Minimum Grade": "C",
         "Class2": "FREN 3XXX",
         "Title2": "French Elective",
-        " Credit Hours2": "3.0"
+        "Credit Hours": "3.0"
     }
 ]
