@@ -216,7 +216,7 @@
             <div class="container">
                 <div class="divH">Georgia Tech</div>
                 <ul class="content" v-if="courses.length">
-                    <div v-for="course in filteredCourses">
+                    <div v-if="filteredCourses.length" v-for="course in filteredCourses">
                         <span class="anchor" :id="course.ShortName + '-anchor'"></span>
                         <li :id="course.ShortName">
                             <h3>{{ course.Name }}</h3>
@@ -232,6 +232,10 @@
                                 </li>
                             </ul>
                         </li>
+                    </div>
+                    <div v-else>
+                        <br>
+                        <p style="color:white; text-align: center;">no matches...</p>
                     </div>
                 </ul>
                 <div v-else>
