@@ -1,0 +1,21 @@
+{
+  "name": "path2course",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@tanstack/vue-virtual": "^3.11.2",
+    "core-js": "^3.8.3",
+    "lodash": "^4.17.21",
+    "vue": "^3.2.13",
+    "vue-typed-virtual-list": "^1.0.10",
+    "vue-virtual-scroller": "^2.0.0-beta.8"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0"
+  }
+}
