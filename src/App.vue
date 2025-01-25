@@ -6,8 +6,6 @@
       <h1 style="color:white"><a style="color: white; text-decoration: none;" href=".">Path2Course :)</a>
       </h1>
       <input type="text" v-model="search" placeholder="search GT courses">
-      <!-- <input type="text" v-model="searchTerm" @input="onInput" /> -->
-      <button>Search</button>
       <br>
       <br>
     </div>
