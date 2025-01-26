@@ -28,7 +28,7 @@
                   {{ course.Level }}
                   <p style="color:#A28D5B">Minimum Grade: <br>
                   </p>
-                  {{ course['Minimum Grade'] }}
+                  {{ course.MinimumGrade }}
                   <p style="color:#A28D5B">Georiga Tech Equivalent: <br>
                   </p>
 
