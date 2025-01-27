@@ -3,9 +3,10 @@
   <div id="app">
     <div id='header'>
 
-      <div style="color:white; height:64px;"><a style="color: white; text-decoration: none; font-size:24px;" href=".">Path2Course :) </a>
+      <div style="color:white; height:64px;"><a style="color: white; text-decoration: none; font-size:24px;" href=".">Path2Course :)</a>
         <br>
-        <input type="text" v-model="search" placeholder="search GT courses">
+        <!-- <input type="text" v-model="search" placeholder="search GT courses"> -->
+        <SearchInput :clearIcon=false v-model="search" placeholder="search GT courses"/>
       </div>
     </div>
     <div id='main'>
@@ -95,9 +96,14 @@
 <!-- export the component here -->
 <script>
 import debounce from 'lodash/debounce';
+import SearchInput from 'vue-search-input'
+import 'vue-search-input/dist/styles.css'
 
 export default {
   name: 'App', // you don't have to give your components a name
+  components: {
+    SearchInput
+  },
   data() {
     return {
       searchTerm: '',
