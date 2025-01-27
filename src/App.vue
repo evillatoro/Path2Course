@@ -116,7 +116,7 @@ export default {
         this.courses = Object.values(data.Courses)
         this.gtFilteredList = Object.values(data.Courses)
       })
-      .catch(err => console.log(err.message));
+      .catch(err => console.log(err.message))
 
     fetch('transferInformation.json')
       .then(res => res.json())
@@ -124,15 +124,15 @@ export default {
         this.transferData = data;
         this.ugaFilteredList = data;
       })
-      .catch(err => console.log(err.message));
+      .catch(err => console.log(err.message))
   },
   computed: {
     filteredCourses() {
-      console.log('filteredCourses');
+      console.log('filteredCourses')
       return this.gtFilteredList
     },
     filteredCoursesUGA() {
-      console.log('filteredCoursesUGA');
+      console.log('filteredCoursesUGA')
       return this.ugaFilteredList
     }
 
@@ -154,7 +154,7 @@ export default {
     //   if (this.transferData != null) {
     //     return this.transferData.filter((course) => {
     //       if (course.Class2) {
-    //         return course.Class2.match(input);
+    //         return course.Class2.match(input)
     //       }
     //     })
     //   }
@@ -171,42 +171,50 @@ export default {
   methods: {
     performSearch: debounce(
       function () {
-        let start = Date.now()
+        // let start = Date.now()
         // DO STUFF HERE
-        console.log('performSearch')
+        //console.log('performSearch')
         var input = this.search.toUpperCase()
 
         if (this.courses != null) {
+          // add logic where prerequisites show up too
           this.gtFilteredList = this.courses.filter((course) => {
-            return course.Name.match(input)
+            return (course.Name.match(input) || (course.Prerequisites != null && this.goThroughPrerequisites(course, input)))
           })
         }
 
-        let end = Date.now()
-        let elapsed = end - start // milliseconds
+        // let end = Date.now()
+        // let elapsed = end - start // milliseconds
         // console.log("elapsed time: " + elapsed / 1000 + " seconds")
       },
       275
     ),
     performSearch2: debounce(
       function () {
-        let start = Date.now()
+        // let start = Date.now()
         // DO STUFF HERE
-        console.log('performSearch2')
+        //console.log('performSearch2')
         var input = this.search.toUpperCase()
         if (this.transferData != null) {
           this.ugaFilteredList = this.transferData.filter((course) => {
             if (course.Class2) {
-              return course.Class2.match(input);
+              return course.Class2.match(input)
             }
           })
         }
-        let end = Date.now()
-        let elapsed = end - start // milliseconds
-        // console.log("elapsed time: " + elapsed / 1000 + " seconds")
+        // let end = Date.now()
+        // let elapsed = end - start // milliseconds
+        //console.log("elapsed time: " + elapsed / 1000 + " seconds")
       },
       275
-    )
+    ),
+    goThroughPrerequisites(course, input) {
+      return course.Prerequisites.some((course1) => {
+        if (course1.match(input)) {
+          return true
+        }
+      })
+    }
   },
 
 } 
