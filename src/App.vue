@@ -285,6 +285,7 @@ input {
   flex-shrink: 0;
   /* overflow: auto; */
   /* width: 30%; */
+  overflow-x: hidden;
   overflow-y: scroll;
 
   color: black;
