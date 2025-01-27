@@ -3,11 +3,10 @@
   <div id="app">
     <div id='header'>
 
-      <h1 style="color:white"><a style="color: white; text-decoration: none;" href=".">Path2Course :)</a>
-      </h1>
-      <input type="text" v-model="search" placeholder="search GT courses">
-      <br>
-      <br>
+      <div style="color:white; height:64px;"><a style="color: white; text-decoration: none; font-size:24px;" href=".">Path2Course :) </a>
+        <br>
+        <input type="text" v-model="search" placeholder="search GT courses">
+      </div>
     </div>
     <div id='main'>
       <!-- the container needs to have a size to trigger overflow -->
