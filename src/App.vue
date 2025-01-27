@@ -358,8 +358,7 @@ li {
 }
 
 .anchor {
-  display: block;
-  visibility: hidden;
+  scroll-margin-top: 42px;
 }
 
 /* added so that in mobile, when keyboard comes up, there is no auto-zoom on the search bar */
