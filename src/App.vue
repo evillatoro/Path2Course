@@ -2,11 +2,11 @@
   <!-- you can have more than one root element inside the template -->
   <div id="app">
     <div id='header'>
-
-      <div style="color:white; height:64px;"><a style="color: white; text-decoration: none; font-size:24px;" href=".">Path2Course :)</a>
+      <div style="color:white; height:64px;"><a style="color: white; text-decoration: none; font-size:24px;"
+          href=".">Path2Course :)</a>
         <br>
         <!-- <input type="text" v-model="search" placeholder="search GT courses"> -->
-        <SearchInput :clearIcon=false v-model="search" placeholder="search GT courses"/>
+        <SearchInput :clearIcon=false v-model="search" placeholder="search GT courses" />
       </div>
     </div>
     <div id='main'>
@@ -20,16 +20,16 @@
               <li :id="course.ShortName">
                 <h3>{{ course.Class }}</h3>
                 <h4 v-if="course.Title">
-                  <p style="color:#A28D5B">Description: <br>
+                  <p style="color:#BA0C2F">Description: <br>
                   </p>
                   {{ course.Title }}
-                  <p style="color:#A28D5B">Level: <br>
+                  <p style="color:#BA0C2F">Level: <br>
                   </p>
                   {{ course.Level }}
-                  <p style="color:#A28D5B">Minimum Grade: <br>
+                  <p style="color:#BA0C2F">Minimum Grade: <br>
                   </p>
                   {{ course.MinimumGrade }}
-                  <p style="color:#A28D5B">Georiga Tech Equivalent: <br>
+                  <p style="color:#BA0C2F">Georiga Tech Equivalent: <br>
                   </p>
 
                   <a style="color: black" :href="'#' + course.Class2 + '-anchor'">
@@ -61,16 +61,16 @@
                 <h3>{{ course.Name }}</h3>
                 <h4 v-if="course.Description">
                   <p style="color:#A28D5B">Description: </p>{{ course.Description }}
+                  <p style="color: #A28D5B" v-if="course.Prerequisites != null"><br>Prerequisites: </p>
+                  <ul>
+                    <li v-for="prerequisite in course.Prerequisites" class="prerequisite" @click.stop=""
+                      :key="prerequisite">
+                      <a style="color: black" :href="'#' + prerequisite + '-anchor'">
+                        <p>{{ prerequisite }}</p>
+                      </a>
+                    </li>
+                  </ul>
                 </h4>
-                <ul>
-                  <p v-if="course.Prerequisites != null">Prerequisites: </p>
-                  <li v-for="prerequisite in course.Prerequisites" class="prerequisite" @click.stop=""
-                    :key="prerequisite">
-                    <a style="color: #A28D5B" :href="'#' + prerequisite + '-anchor'">
-                      <p>{{ prerequisite }}</p>
-                    </a>
-                  </li>
-                </ul>
               </li>
             </div>
           </div>
@@ -313,7 +313,7 @@ input {
     position: sticky;
     top: 0;
     text-align: center;
-    background-color: red;
+    background-color: #BA0C2F;
     color: white;
   }
 }
