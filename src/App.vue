@@ -2,7 +2,7 @@
   <!-- you can have more than one root element inside the template -->
   <div id="app">
     <div id='header'>
-      <div style="color:white; height:64px;"><a style="color: white; text-decoration: none; font-size:24px;"
+      <div style="color:white; height:64px; padding: 3px;"><a style="color: white; text-decoration: none; font-size:24px;"
           href=".">Path2Course :)</a>
         <br>
         <!-- <input type="text" v-model="search" placeholder="search GT courses"> -->
@@ -300,6 +300,7 @@ input {
     top: 0;
     text-align: center;
     background-color: gold;
+    padding: 3px;
   }
 
   .divF {
@@ -315,6 +316,7 @@ input {
     text-align: center;
     background-color: #BA0C2F;
     color: white;
+    padding: 3px;
   }
 }
 
